@@ -389,7 +389,7 @@ graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range"
     }
-build_cost	= 40
+build_cost	= 30
 upkeep		= 1
 sabotage	= 100
 sound		= "b_granary"
