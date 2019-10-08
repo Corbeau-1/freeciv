@@ -430,55 +430,9 @@ reqs    =
       "Gov", "Fundamentalism",  "Player"
     }
 
-[effect_empire_size_step_0]
+[effect_empire_size_step]
 type    = "Empire_Size_Step"
-value   = 6
-reqs	=
-    { "type",       "name",      "range"
-      "Gov", "Anarchy", "Player"
-    }
-
-[effect_empire_size_step_1]
-type    = "Empire_Size_Step"
-value   = 10
-reqs	=
-    { "type",       "name",      "range"
-      "Gov", "Despotism", "Player"
-    }
-
-[effect_empire_size_step_2]
-type    = "Empire_Size_Step"
-value   = 12
-reqs	=
-    { "type",       "name",      "range"
-      "Gov", "Monarchy", "Player"
-    }
-
-; Empire_Size_Step disabled for Communism
-
-[effect_empire_size_step_3]
-type    = "Empire_Size_Step"
-value   = 14
-reqs	=
-    { "type",       "name",      "range"
-      "Gov", "Republic",  "Player"
-    }
-
-[effect_empire_size_step_4]
-type    = "Empire_Size_Step"
-value   = 16
-reqs	=
-    { "type",       "name",      "range"
-      "Gov", "Democracy", "Player"
-    }
-
-[effect_empire_size_step_5]
-type    = "Empire_Size_Step"
-value   = 12
-reqs    =
-    { "type",       "name",      "range"
-      "Gov", "Fundamentalism", "Player"
-    }
+value   = 5
 
 [effect_max_rates_0]
 type    = "Max_Rates"
