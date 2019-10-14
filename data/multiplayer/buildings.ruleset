@@ -1535,7 +1535,7 @@ name		= _("Marco Polo's Embassy")
 genus		= "SmallWonder"
 reqs	=
     { "type",     "name",                 "range",  "present", "quiet"
-      "Tech",     "Trade",                "Player", TRUE,      FALSE
+      "Tech",     "Banking",                "Player", TRUE,      FALSE
       "Building", "Marco Polo's Embassy", "Player", FALSE,     TRUE
     }
 graphic	= "b.marco_polos_embassy"
@@ -1543,15 +1543,14 @@ graphic_alt	= "-"
 obsolete_by	=
     { "type", "name", "range"
     }
-build_cost	= 400
+build_cost	= 500
 upkeep		= 0
 sabotage	= 0
 sound		= "w_marco_polos_embassy"
 sound_alt	= "w_generic"
 ; /* xgettext:no-c-format */
 helptext	= _("\
-Increases trade output by 40% in all cities on the same\
- continent.\
+Establishes embassies with all nations.\
 ")
 
 [building_michelangelos_chapel]
