@@ -2002,13 +2002,21 @@ reqs	=
     }
 
 [effect_marco_polos_embassy]
-type    = "Output_Bonus"
-value	= 40
+type    = "Have_Embassies"
+value	= 1
 reqs	=
     { "type", "name", "range"
-      "Building", "Marco Polo's Embassy", "Continent"
-      "OutputType", "Trade", "Local"
+      "Building", "Marco Polo's Embassy", "Player"
     }
+
+[effect_radio_embassy]
+type    = "Have_Embassies"
+value	= 1
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Radio", "Player"
+    }
+
 
 [effect_michelangelos_chapel]
 type    = "Make_Content"
