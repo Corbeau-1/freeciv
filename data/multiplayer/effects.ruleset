@@ -2550,3 +2550,7 @@ reqs    =
       "BuildingGenus", "SmallWonder", "Local", TRUE
       "Building", "Palace", "Local", FALSE
     }
+
+[effect_trade_routes]
+type    = "Max_Trade_Routes"
+value   = 1
